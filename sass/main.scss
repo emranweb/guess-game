@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+//default color
+$black:#000;
+$white:#ffff;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background: #c6cad1;
+}
+
+.game {
+  width: 50%;
+  margin: 0 auto;
+  background: #90A4AE;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: #Fff;
+}
+
+.game__header {
+  h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 30px 0px;
+    color: #afdb9d;
+  }
+}
+
+.game__input {
+  padding-bottom: 30px;
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #90f9c9;
+    padding-bottom: 20px;
+  }
+}
+
+.input {
+  width: 240px;
+  height: 34px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  background: #afdb9d;
+}
+
+.btn {
+  width: 90px;
+  height: 34px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background: #afdb9d;
+  outline: none;
+}
+
+.message {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+@import "responsive";
